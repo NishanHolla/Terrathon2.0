@@ -11,3 +11,57 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.navbar{
+  height: 45px;
+  font-size: 20px;
+  background-color: blue;
+  padding-top: 14px;
+}
+
+.link{
+  margin-top: 5px;
+  color: white;
+  text-decoration: none;
+  margin: 10px;
+}
+
+.login{
+  border: 3px solid black;
+  padding: 4px;
+  padding-bottom: 7px;
+  padding-left: 18px;
+  padding-right: 18px;
+  background:white;
+  font-style: italic;
+  color: green;
+  text-decoration: none;
+  border-radius: 20px;
+  position: absolute;
+  top:6px;
+  right: 20px;
+}
+
+.patient-grid{
+  padding: 20px;
+}
+
+.patient-card{
+  margin: 20px;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.home-page{
+  padding: 20px;
+}
+
+.our-goal{
+  padding: 20px;
+}
+
+.wearable{
+  padding: 20px;
+}
