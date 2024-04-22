@@ -1,70 +1,71 @@
-# Getting Started with Create React App
+Great! Here's the updated README file with the name "Caring Connections":
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+---
 
-## Available Scripts
+# Caring Connections
 
-In the project directory, you can run:
+Caring Connections is a Flask web application developed for Terathon 3.0 Hackathon at PES University, RR Nagar, Bengaluru. The aim of Caring Connections is to help in communicating with mentally challenged individuals by tracking their vital body stats and emotions.
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Track Vital Stats:** Monitor heart rate, ECG, blood pressure, sweat, temperature, and sleep patterns.
+- **Emotion Analysis:** Analyze user's emotions through facial recognition technology.
+- **Meal Tracker:** Track meal times and help in managing hunger patterns.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Screenshots
 
-### `npm test`
+### Home Page
+![Screenshot 2024-04-22 215912](https://github.com/NishanHolla/Terrathon2.0/assets/92212948/270b8120-6f66-4284-afb1-543d593e41b6)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+### Dashboard
+![Screenshot 2024-04-22 215930](https://github.com/NishanHolla/Terrathon2.0/assets/92212948/5998e731-922d-4c49-a0dc-adafc4763c4d)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Emotion Analysis
+![Screenshot 2024-04-22 221151](https://github.com/NishanHolla/Terrathon2.0/assets/92212948/be7e45b0-643e-4a13-bef7-ca1fd050e3c8)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+### Meal Tracker
+![Screenshot 2024-04-22 220043](https://github.com/NishanHolla/Terrathon2.0/assets/92212948/6e83c4f4-2771-4a80-baad-02f4ac021f2d)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Installation
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Clone the repository:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+    ```
+    git clone https://github.com/yourusername/caring-connections.git
+    ```
 
-## Learn More
+2. Install dependencies:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+    ```
+    pip install -r requirements.txt
+    ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+3. Run the application:
 
-### Code Splitting
+    ```
+    python app.py
+    ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Usage
 
-### Analyzing the Bundle Size
+1. Visit `http://localhost:5000` in your web browser.
+2. Register as a new user or log in if you already have an account.
+3. Start tracking your vital stats and emotions.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Contributors
 
-### Making a Progressive Web App
+- John Doe
+- Jane Smith
+- Alice Johnson
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## License
 
-### Advanced Configuration
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Again, remember to replace `yourusername` with your actual GitHub username and add the relevant screenshots to the `screenshots` folder in your repository. You can use markdown syntax to include the images in the README file.
